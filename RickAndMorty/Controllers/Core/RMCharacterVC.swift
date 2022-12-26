@@ -13,5 +13,8 @@ final class RMCharacterVC: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         
+        let request = RMRequest(endpoint: .character)
+        guard let url = request.url else { return }
+        print(url)
     }
 }
