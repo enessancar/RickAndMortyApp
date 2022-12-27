@@ -12,9 +12,7 @@ final class RMCharacterVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
+        title = "Characters"
         
-        let request = RMRequest(endpoint: .character)
-        guard let url = request.url else { return }
-        print(url)
     }
 }
