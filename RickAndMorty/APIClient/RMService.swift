@@ -41,6 +41,7 @@ final class RMService {
                 completion(.failure(error))
             }
         }
+        task.resume()
     }
     
     private func request(from rmRequest: RMRequest) -> URLRequest? {
