@@ -15,5 +15,4 @@ struct RMEpisode: Codable {
     let characters: [String]
     let url: String
     let created: String
-    
 }

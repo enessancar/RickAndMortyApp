@@ -16,3 +16,4 @@ struct RMLocation: Codable {
     let url: String
     let created: String
 }
+
